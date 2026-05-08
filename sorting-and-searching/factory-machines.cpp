@@ -3,6 +3,7 @@ using namespace std;
 
 #define lli long long int
 
+
 lli find_time(vector<lli> &ks, lli t) {
     lli i, j, mid, sum;
     i = 0; j = *prev(ks.end())*t;

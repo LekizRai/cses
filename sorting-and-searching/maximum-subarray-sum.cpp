@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 long long int x[200000];
 long long int sum[200000];
 map<int, long long int> min_sum;

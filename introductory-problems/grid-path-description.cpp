@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int count_path(string s, bool free[][9], int i, int j, int n)
 {
     if (free[i+1][j] && free[i-1][j] && !free[i][j+1] && !free[i][j-1]) return 0;

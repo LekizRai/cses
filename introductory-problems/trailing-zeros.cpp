@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 long int find_div5_nearest(long int n)
 {
     if (n%10 >= 5) {

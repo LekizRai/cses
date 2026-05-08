@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int ticket_search(vector<int> &h, vector<int> &next, vector<int> &prev, int &st, int &fi, int a)
 {
     int n = h.size();

@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 void create_string(vector<string> &res, map<char, int> &a, string str, int len)
 {
     if (str.length() == len) {

@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 void do_swap(int disk_num, int source, int target)
 {
     if (disk_num == 1) {

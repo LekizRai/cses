@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int count_strategy(bool reserved[][8], bool free_ldig[], bool free_rdig[], bool free_ve[], int n) {
     if (n == 8) {
         return 1;

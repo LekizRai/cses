@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 bool c(pair<int, int> x, pair<int, int> y)
 {
     if (x.second < y.second) {

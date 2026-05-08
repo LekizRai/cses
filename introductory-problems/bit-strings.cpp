@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long int MOD = 1e9+7;
+#define MOD int(1e9+7)
+
 
 int main()
 {

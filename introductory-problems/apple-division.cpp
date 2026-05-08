@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 long long int cal_min_dif(long long int p[], int n, long long int sum, int id, long long int res) {
     if (id == n) {
         return min(abs(sum-2*res),

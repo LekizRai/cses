@@ -3,6 +3,7 @@ using namespace std;
 
 #define lli long long int
 
+
 lli compute_num(lli k)
 {
     return (k*(k+1))/2;

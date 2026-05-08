@@ -3,6 +3,7 @@ using namespace std;
 
 #define lli long long int
 
+
 lli mod(lli a, lli b)
 {
     return ((a%b)+b)%b;

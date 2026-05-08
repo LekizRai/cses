@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 void display_sequence(int start, int num)
 {
     for (int i = start; i <= num; i++) {

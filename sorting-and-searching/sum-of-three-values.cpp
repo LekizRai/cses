@@ -3,6 +3,7 @@ using namespace std;
 
 #define lli long long int
 
+
 pair<int, int> find_val(vector<pair<lli, int>> &a, int val, int lb, int ub)
 {
     pair<int, int> res;
